@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  color: inherit;
+  border-width: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+button {
+  background-color: #008489;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  border-bottom: 3px solid #01575a;
+  font-size: 1.2em;
+  transition: all 400ms ease-in-out;
+}
+button:hover {
+  background-color: #01575a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #67666e;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  color: #008489;
+}
+a:hover {
+  color: #01575a;
+}
+
+/*# sourceMappingURL=styles.css.map */
